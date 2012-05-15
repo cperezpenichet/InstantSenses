@@ -1,0 +1,13 @@
+/* put your styles here */
+
+.resultBox {
+	background:white;
+	width:200px;
+	height:100px;
+	/* position:absolute;
+	left:50%;
+	top:50%;
+	margin:-100px 0 0 -150px; */
+	line-height:100px;
+	text-align:center;
+}
