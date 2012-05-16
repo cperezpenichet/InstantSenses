@@ -13,7 +13,8 @@ $(function() {
 	// The url of the datastream 
 	// See here for more info:
 	// https://cosm.com/docs/v2/datastream/show.html
-	url = "https://api.cosm.com/v2/feeds/40385/datastreams/0";
+	url = "https://api.cosm.com/v2/feeds/" + urlParams['feed_id']
+			+ "/datastreams/" + urlParams['datastream'];
 	
 	// Options to be passed to Pachube on request for data
 	// It should at least include the API key and the duration 
