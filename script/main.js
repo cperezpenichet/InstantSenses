@@ -22,7 +22,7 @@ $(function() {
 	// https://cosm.com/docs/v2/history.html
 	data = {
 		key : "TmTHdjGOaAK4proqoCrtOAwIK7qSAKxoMzMrelowRFphST0g",
-		duration : "10hours",
+		duration : "24hours",
 		interval : "900"
 	};
 
@@ -38,6 +38,10 @@ $(function() {
 		legend : {
 			enabled : false,
 		},
+		tooltip: {
+            xDateFormat: '%Y-%m-%d %H:%M:%S',
+            shared: true
+        },
 		xAxis : {
 			type : 'datetime',
 			title : {
